@@ -2,10 +2,6 @@
 
 An AI-powered Chrome extension that **automatically generates tailored cover letters** for job applications.  
 
-<img width="1440" alt="Screenshot 2025-03-01 at 3 01 31 PM" src="https://github.com/user-attachments/assets/df236cd6-c889-4d78-a252-ff32daffb6dd" />
-<img width="1440" alt="Screenshot 2025-03-01 at 3 01 55 PM" src="https://github.com/user-attachments/assets/ebb2983e-8b56-4dbc-8f2d-b6fa982afc0d" />
-
-
 ---
 
 ## **📌 How It Works**  
@@ -32,11 +28,12 @@ No hassle, no manual writing – just an AI-powered, **ready-to-use** cover lett
 
 ## **📸 Demo Screenshots**  
 
-### **1️⃣ Extension UI**  
-![Demo UI](demo-ui.png)  
+### **1️⃣ Extension UI**   
+<img width="1440" alt="Screenshot 2025-03-01 at 3 01 31 PM" src="https://github.com/user-attachments/assets/df236cd6-c889-4d78-a252-ff32daffb6dd" />
 
 ### **2️⃣ Cover Letter Generation in Action**  
-![Generated Cover Letter](demo-cover-letter.png)   
+<img width="1440" alt="Screenshot 2025-03-01 at 3 01 55 PM" src="https://github.com/user-attachments/assets/ebb2983e-8b56-4dbc-8f2d-b6fa982afc0d" />
+  
 
 ---
 
