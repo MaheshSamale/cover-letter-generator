@@ -1,0 +1,139 @@
+/* YourStylesheet.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Light background */
+    margin: 0;
+    padding: 0;
+}
+
+.form-popup, .result-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* Consistent width for form and result popups */
+    height: 471.59px; /* Set consistent height */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff; /* White background */
+    z-index: 1000; /* Ensure it appears above other elements */
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+}
+
+h1 {
+    color: #6a0dad; /* Dark purple color */
+    text-align: center; /* Center the heading */
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the heading bold */
+    margin: 0; /* Remove default margin */
+    padding-bottom: 10px; /* Space below the heading */
+}
+
+/* Keep the rest of your existing styles unchanged */
+
+label {
+    margin: 10px 0 5px;
+    display: block;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 100px; /* Set height for textarea */
+    padding: 10px;
+    border: 1px solid #6a0dad; /* Border in purple */
+    border-radius: 5px;
+    resize: none; /* Disable resizing */
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #6a0dad; /* Purple button */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width button */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5a0a9d; /* Darker purple on hover */
+}
+
+.close-button {
+    background-color: transparent;
+    color: #6a0dad;
+    border: 1px solid #6a0dad;
+    margin-top: 10px;
+}
+
+.close-button:hover {
+    background-color: #6a0dad; /* Add hover effect */
+    color: white;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Result popup specific styling */
+.result-popup h2 {
+    color: #030004; /* Purple color */
+    text-align: center;
+    font-size: 24px; /* Adjust size as needed */
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.result-popup textarea {
+    width: 100%;
+    height: auto; /* Let height be determined by content */
+    padding: 10px;
+    border: 1px solid #6a0dad; /* Purple border */
+    border-radius: 5px;
+    resize: none; /* Disable resizing */
+    margin-top: 10px; /* Space above textarea */
+    font-size: 16px; /* Font size for readability */
+}
+
+.result-popup button {
+    margin-top: 15px; /* Space above button */
+    background-color: #6a0dad; /* Purple button */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width button */
+    transition: background-color 0.3s;
+}
+
+.result-popup button:hover {
+    background-color: #5a0a9d; /* Darker purple on hover */
+}
+
+.copy-message {
+    margin-top: 10px; /* Space above the message */
+    padding: 10px;
+    background-color: #d4edda; /* Light green background for success */
+    color: #155724; /* Dark green text color */
+    border: 1px solid #c3e6cb; /* Border color */
+    border-radius: 5px;
+    text-align: center;
+}
+.heading {
+    color: #030004; /* Purple color */
+    text-align: center;
+    font-size: 24px; /* Adjust size as needed */
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 10px;
+}

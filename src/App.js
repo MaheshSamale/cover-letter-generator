@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React, { useState } from 'react';
+import Form from './Components/Form';
+import Result from './Components/Result';
 
-function App() {
+const App = () => {
+  const [coverLetter, setCoverLetter] = useState('');
+  const [showResult, setShowResult] = useState(false); // State to manage which component to show
+
+  const handleSwitch = () => {
+    setShowResult(prev => !prev); // Toggle between Form and Result
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      {showResult ? (
+        <Result coverLetter={coverLetter} onSwitch={handleSwitch} />
+      ) : (
+        <Form setCoverLetter={setCoverLetter} onSwitch={handleSwitch} />
+      )}
     </div>
   );
-}
+};
 
 export default App;
