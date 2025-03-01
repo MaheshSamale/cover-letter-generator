@@ -9,6 +9,7 @@ If you haven’t already, clone the repository or download the source code to yo
 ```bash
 git clone https://github.com/MaheshSamale/cover-letter-generator.git
 cd cover-letter-generator
+```
 
 
 If you downloaded the ZIP file, extract it and navigate to the extracted folder.
