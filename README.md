@@ -7,9 +7,9 @@ Follow these steps to install and run the Chrome extension on your local machine
 If you haven’t already, clone the repository or download the source code to your local system.  
 
 ```bash
-git clone <your-repository-url>
-cd <your-project-folder>
-```
+git clone https://github.com/MaheshSamale/cover-letter-generator.git
+cd cover-letter-generator
+
 
 If you downloaded the ZIP file, extract it and navigate to the extracted folder.
 
