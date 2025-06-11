@@ -6,7 +6,7 @@ An AI-powered Chrome extension that **automatically generates tailored cover let
 
 ## **📌 How It Works**  
 
-1️⃣ **Copy-Paste Job Description** – Just paste the job description into the extension.  
+1️⃣ **Copy-Paste Job Description OR Scrape from LinkedIn** – Either paste the job description or **automatically extract it from LinkedIn** with one click.    
 2️⃣ **Upload Your Resume** – Add your resume for a personalized touch.  
 3️⃣ **One-Click Cover Letter Generation** – The extension creates a **tailored cover letter** instantly.  
 4️⃣ **Copy & Use** – Simply copy and paste the cover letter into your application.  
@@ -21,7 +21,7 @@ No hassle, no manual writing – just an AI-powered, **ready-to-use** cover lett
 🚀 **Tone Customization** – Choose between **formal, casual, persuasive, or creative** cover letters.  
 🚀 **Job Fit Analysis** – The extension will **analyze your resume vs. the job description** and provide feedback.  
 🚀 **Resume Improvement Suggestions** – Get recommendations on **how to optimize your resume** based on the job.  
-🚀 **Automatic Job Description Scraping** – Seamlessly extract job details from **LinkedIn, Internshala, and other job boards**.  
+🚀 **Automatic Job Description Scraping** – ✅ **Now supports LinkedIn!** Easily extract job descriptions directly from **LinkedIn job postings**.  
 🚀 **Open for Contributions** – If you’d like to **contribute**, feel free to fork the repo and submit PRs!  
 
 ---
