@@ -10,33 +10,48 @@ const Result = ({ coverLetter, onSwitch }) => {
 
   const handleCopy = () => {
     navigator.clipboard.writeText(editableCoverLetter);
-    setCopyMessage('Copied to clipboard!');
-
-    // Clear the message after 2 seconds
+    setCopyMessage('Copied to clipboard! ✅');
     setTimeout(() => {
       setCopyMessage('');
     }, 2000);
   };
 
+  const handleDownload = () => {
+    const blob = new Blob([editableCoverLetter], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.download = 'HireWrite_CoverLetter.txt';
+    link.href = url;
+    link.click();
+  };
+
   return (
     <div className="result-popup">
-      <h2>
-        Generated Cover Letter
+      <h2 className="heading">
+        HireWrite Result ✨
         <PiUserSwitchBold 
           onClick={onSwitch} 
-          style={{ cursor: 'pointer', marginLeft: '10px', fontSize: '24px' }} // Adjust size as needed
+          style={{ cursor: 'pointer', marginLeft: '10px', fontSize: '24px' }} 
+          title="Switch Back"
         />
       </h2>
+
       <textarea
         value={editableCoverLetter}
         onChange={(e) => setEditableCoverLetter(e.target.value)}
-        rows={10} // Set the default number of rows
-        readOnly={false} // Allow editing
+        rows={10}
+        readOnly={false}
       />
+
       <button onClick={handleCopy}>
-        Copy to Clipboard
+        {copyMessage ? "Copied ✅" : "Copy to Clipboard"}
       </button>
-      {copyMessage && <div className="copy-message">{copyMessage}</div>} {/* Notification Message */}
+
+      <button onClick={handleDownload} style={{ marginTop: '10px' }}>
+        Download as .txt
+      </button>
+
+      {copyMessage && <div className="copy-message">{copyMessage}</div>}
     </div>
   );
 };

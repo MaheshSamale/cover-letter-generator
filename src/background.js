@@ -1,6 +1,5 @@
 // background.js
 
 chrome.runtime.onInstalled.addListener(() => {
-    console.log("Cover Letter Generator extension installed.");
-  });
-  
+  console.log("Cover Letter Generator extension installed.");
+});

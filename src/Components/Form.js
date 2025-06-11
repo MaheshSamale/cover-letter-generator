@@ -51,7 +51,7 @@ const Form = ({ setCoverLetter, onSwitch }) => {
     setLoading(true); // Start loading state
 
     // Initialize Google Generative AI
-    const genAI = new GoogleGenerativeAI("-----------------"); // Replace with your actual API key
+    const genAI = new GoogleGenerativeAI("AIzaSyDqzRsmljt1gHOSVjL-jY_VMUuMuRO-QhQ"); // Replace with your actual API key
     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     const prompt = `Generate a cover letter for the following job description:\n\n${jobDescription}\n\nBased on this resume:\n\n${resume}`;
