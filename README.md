@@ -49,18 +49,6 @@ Designed for job seekers who want faster, smarter, and more targeted application
 
 ---
 
-
-## **📸 Demo Screenshots**  
-
-### **1️⃣ Extension UI**   
-<img width="1440" alt="Screenshot 2025-03-01 at 3 01 31 PM" src="https://github.com/user-attachments/assets/df236cd6-c889-4d78-a252-ff32daffb6dd" />
-
-### **2️⃣ Cover Letter Generation in Action**  
-<img width="1440" alt="Screenshot 2025-03-01 at 3 01 55 PM" src="https://github.com/user-attachments/assets/ebb2983e-8b56-4dbc-8f2d-b6fa982afc0d" />
-  
-
----
-
 ## **📥 Installation & Setup**  
 
 Follow these steps to **install and run the Chrome extension locally** on your computer.  
