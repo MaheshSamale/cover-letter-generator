@@ -1,8 +1,8 @@
 // src/Components/Result.js
 
 import React, { useState } from 'react';
-import { PiUserSwitchBold } from 'react-icons/pi'; // Import the user switch icon
-import './YourStylesheet.css'; // Import your stylesheet
+import { PiUserSwitchBold } from 'react-icons/pi';
+import './YourStylesheet.css';
 
 const Result = ({ coverLetter, onSwitch }) => {
   const [editableCoverLetter, setEditableCoverLetter] = useState(coverLetter);
@@ -11,9 +11,7 @@ const Result = ({ coverLetter, onSwitch }) => {
   const handleCopy = () => {
     navigator.clipboard.writeText(editableCoverLetter);
     setCopyMessage('Copied to clipboard! ✅');
-    setTimeout(() => {
-      setCopyMessage('');
-    }, 2000);
+    setTimeout(() => setCopyMessage(''), 2000);
   };
 
   const handleDownload = () => {
@@ -27,31 +25,39 @@ const Result = ({ coverLetter, onSwitch }) => {
 
   return (
     <div className="result-popup">
-      <h2 className="heading">
-        HireWrite Result ✨
-        <PiUserSwitchBold 
-          onClick={onSwitch} 
-          style={{ cursor: 'pointer', marginLeft: '10px', fontSize: '24px' }} 
-          title="Switch Back"
+      <div className="header-row">
+        <h2 className="heading">🎯 Cover Letter Result</h2>
+        <PiUserSwitchBold
+          onClick={onSwitch}
+          style={{ cursor: 'pointer', fontSize: '24px' }}
+          title="Back to Generator"
         />
-      </h2>
+      </div>
 
-      <textarea
-        value={editableCoverLetter}
-        onChange={(e) => setEditableCoverLetter(e.target.value)}
-        rows={10}
-        readOnly={false}
-      />
+      <div className="result-card">
+        <label className="label">Your Generated Cover Letter:</label>
+        <textarea
+          value={editableCoverLetter}
+          onChange={(e) => setEditableCoverLetter(e.target.value)}
+          rows={12}
+          className="result-textarea"
+        />
 
-      <button onClick={handleCopy}>
-        {copyMessage ? "Copied ✅" : "Copy to Clipboard"}
+        <div className="button-group">
+          <button onClick={handleCopy} className="action-button primary">
+            {copyMessage ? "✅ Copied!" : "Copy to Clipboard"}
+          </button>
+          <button onClick={handleDownload} className="action-button secondary">
+            Download as .txt
+          </button>
+        </div>
+
+        {copyMessage && <div className="copy-message show">{copyMessage}</div>}
+      </div>
+
+      <button className="close-button" onClick={() => window.close()}>
+        Close
       </button>
-
-      <button onClick={handleDownload} style={{ marginTop: '10px' }}>
-        Download as .txt
-      </button>
-
-      {copyMessage && <div className="copy-message">{copyMessage}</div>}
     </div>
   );
 };
