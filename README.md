@@ -1,30 +1,54 @@
-# **🚀 AI-Powered Cover Letter Generator - Chrome Extension**  
+# 🚀 HireWrite – AI-Powered Resume & Cover Letter Assistant
 
-An AI-powered Chrome extension that **automatically generates tailored cover letters** for job applications.  
+An intelligent Chrome/Edge browser extension that **analyzes your resume, evaluates job fit, and generates personalized cover letters** — all in one seamless workflow.
 
----
-
-## **📌 How It Works**  
-
-1️⃣ **Copy-Paste Job Description OR Scrape from LinkedIn** – Either paste the job description or **automatically extract it from LinkedIn** with one click.    
-2️⃣ **Upload Your Resume** – Add your resume for a personalized touch.  
-3️⃣ **One-Click Cover Letter Generation** – The extension creates a **tailored cover letter** instantly.  
-4️⃣ **Copy & Use** – Simply copy and paste the cover letter into your application.  
-
-No hassle, no manual writing – just an AI-powered, **ready-to-use** cover letter!  
+Designed for job seekers who want faster, smarter, and more targeted applications — right from their browser.
 
 ---
 
-## **📌 Future Work**  
+## 📌 How It Works
 
-🚀 **Support for Multiple Resume Formats** – Upload **PDF, DOC, and other formats** instead of plain text.  
-🚀 **Tone Customization** – Choose between **formal, casual, persuasive, or creative** cover letters.  
-🚀 **Job Fit Analysis** – The extension will **analyze your resume vs. the job description** and provide feedback.  
-🚀 **Resume Improvement Suggestions** – Get recommendations on **how to optimize your resume** based on the job.  
-🚀 **Automatic Job Description Scraping** – ✅ **Now supports LinkedIn!** Easily extract job descriptions directly from **LinkedIn job postings**.  
-🚀 **Open for Contributions** – If you’d like to **contribute**, feel free to fork the repo and submit PRs!  
+1️⃣ **Auto-Scrape Job Descriptions**  
+→ Extract job descriptions directly from **LinkedIn** and **Naukri** with a single click.
+
+2️⃣ **Drag-and-Drop Resume Upload**  
+→ Simply drop your resume into the extension — no formatting required.
+
+3️⃣ **Get Resume Match Score**  
+→ Instantly analyze how well your resume aligns with the job description, including a **“Fit / Not Fit”** decision.
+
+4️⃣ **Receive Resume Improvement Suggestions**  
+→ Get actionable AI-powered feedback on how to improve your resume for better results.
+
+5️⃣ **Generate a Tailored Cover Letter**  
+→ Automatically generate a personalized, role-specific cover letter using your resume and the scraped job description.
+
+6️⃣ **Copy & Apply**  
+→ Copy your results and apply to jobs — quickly, confidently, and without switching tabs.
 
 ---
+
+## ✨ Features
+
+✅ One-click **job scraping** from LinkedIn & Naukri  
+✅ **Resume match scoring** and AI-powered feedback  
+✅ **Cover letter generation** tailored to each role  
+✅ **Drag-and-drop resume upload**  
+✅ Seamless experience inside your browser  
+✅ Supports **Chrome and Edge**
+
+---
+
+## 🔮 Future Work
+
+🚀 Add **tone customization** (formal, persuasive, casual, etc.)  
+🚀 Add **multi-language support** for international users  
+🚀 Save and track applications directly within the extension  
+🚀 Cover letter **template gallery** for different industries  
+🚀 Improved **resume parsing** and keyword detection
+
+---
+
 
 ## **📸 Demo Screenshots**  
 
